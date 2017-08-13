@@ -1,0 +1,6 @@
+    static void Main()
+        {
+            Console.WriteLine("Bitte eine hexadezimale Zahl eingeben:");
+            var hexaZahl = Convert.ToInt16(Console.ReadLine(), 16);
+            Console.WriteLine($"Zahl dezimal konventiert: {hexaZahl}");
+        }
